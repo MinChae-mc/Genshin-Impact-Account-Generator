@@ -1,8 +1,8 @@
 <?php
 //nannochan0 (test account) {"code":200,"data":{"account_info":{"account_id":80454184,"account_name":"n****n0","country":"ID","safe_level":1,"weblogin_token":"tPXw9izFFwMZ1vfm94s8PuxAgDzUemlfKMGIqzIW"},"msg":"Success","status":1}}
 $file = 'akun_genshin.txt';
-$user_genshin = "genshincrot";
-$pass_genshin = "genshincrot";
+$user_genshin = "minchaegenshin";
+$pass_genshin = "minchaegenshin";
 for ($i = 1; $i <= 2; $i++) {
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL,"https://webapi-os.account.mihoyo.com/Api/regist_by_account");
